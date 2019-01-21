@@ -1,0 +1,33 @@
+﻿body {
+	background-color:#798679;
+}
+button {
+	background-color: #00b300;
+	outline:none;
+	cursor:pointer;
+}
+.button {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	outline:none;
+	border-radius: 50%;
+	box-shadow: 0 0 4px 0 #e6ffe6 inset;
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#00b300;
+	border-right-color:#00b300;
+	border-top-color:#999;
+	border-bottom:4px solid #006600;
+	font-size:30px;
+	shadow: 0px -1px 1px rgba(255,255,255,0.5);
+	padding: 0;
+}
+button:hover{
+	color:white;
+}
+button:active{
+	margin-top: 2px;
+	box-shadow: 0 0 4px 0 #006600 inset;
+	border:1px solid #003300;
+}
